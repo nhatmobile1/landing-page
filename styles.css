@@ -93,48 +93,58 @@ a {
 .card {
   background-color: #f9faf8;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
+  padding-bottom: 60px;
 }
 
 .card-title {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  padding-bottom: 30px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   gap: 50px;
-}
-
-.card-image {
-  width: 100px;
-  height: 100px;
+  flex-wrap: wrap;
 }
 
 .info {
-  max-width: 200px;
+  max-width: 125px;
+}
+
+.card-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 8px;
+  border: 3px solid #3882f6;
+  margin-bottom: 8px;
 }
 
 /* ----- Quote Section CSS ----- */
 .quote {
   display: flex;
   background-color: #e5e7eb;
-  padding: 75px;
-}
-
-.quotebox {
+  padding: 50px;
   justify-content: center;
   align-items: center;
 }
 
-.quote-text {
+.quote-box {
+  width: 50%;
+}
+
+p.quote-text {
   font-size: 20px;
+  font-style: italic;
 }
 
 .signature {
   text-align: right;
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .footer,
@@ -144,7 +154,6 @@ a {
 }
 
 /* ----- CTA Section CSS ----- */
-
 .cta {
   display: flex;
   flex: 1 1 0;
